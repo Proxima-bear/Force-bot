@@ -1,0 +1,73 @@
+:root {
+    --primary-color: rgba(46, 203, 234, 1);
+  }
+  
+  .btn {
+    padding: 0.3rem 0.5rem;
+    font-size: 1.2rem;
+    text-align: center;
+    border: 0;
+    outline: none;
+    border-radius: 10px;
+    width: 120px;
+    margin-left: 5px;
+    box-shadow: 1px -3px 52px -5px rgba(0, 0, 0, 0.77);
+    cursor: pointer;
+  }
+  
+  .btn.add {
+    background-color: var(--primary-color);
+    color: #fff;
+    margin-left: 80px;
+    position: relative;
+    bottom: 25px;
+ }
+  
+  .btn.remove {
+    padding: 0.3rem 1rem;
+    background-color: tomato;
+    position: relative;
+    right: 20px;
+    bottom: 25px;
+  }
+  
+  .btn.checkout {
+    background-color: rgba(106, 194, 120, 1);
+    width: 350px;
+    height: 53px;
+    color: #fff;
+    font-size: 15px;
+    transform: translate(-7%);
+  }
+  
+  .btn:active {
+    transform: scale(0.98);
+  }
+  
+  .btn.add:hover {
+    background-color: var(--primary-color);  
+    visibility: none;
+    opacity: 0;
+  }
+  
+  .btn.add:active {
+    background-color: var(--primary-color);
+    visibility: none;
+    opacity: 0;
+    }
+  
+  .btn.remove:hover {
+    background-color: rgb(209, 83, 61);
+  }
+  .btn.remove:active {
+    background-color: rgb(185, 73, 54);
+  }
+  
+  .btn.checkout:hover {
+    background-color: rgba(106, 194, 120, 1);
+  }
+  .btn.checkout:active {
+    background-color: rgba(106, 194, 120, 1);
+    position: relative;
+    width: 450px;
+  }

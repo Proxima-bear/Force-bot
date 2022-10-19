@@ -1,0 +1,16 @@
+.cart__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+    margin: 5px 15px;
+    color: black;
+  padding-bottom: 15px;
+  }
+
+  .cart__span {
+    margin-bottom: 100px;
+    font-weight: 700;
+  transform: translate(100%);
+  font-size: 18px;
+  }

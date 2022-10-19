@@ -1,0 +1,49 @@
+:root {
+    --primary-color: rgba(46, 203, 234, 1);
+    ;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 110px;
+    height: 190px;
+    margin: 13px 10px;
+    position: relative;
+    border-radius: 5px;
+  }
+  
+  .card__title {
+    font-weight: 400;
+    text-align: center;
+  }
+  
+  .card__title .card__price {
+    font-weight: bold;
+    padding-right: 50%;
+  }
+  
+  .image__container {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+  }
+  
+  .image__container img {
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .btn-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .card__price {
+    text-align: center;
+    display: inline-block;
+  }
+  
+ 
