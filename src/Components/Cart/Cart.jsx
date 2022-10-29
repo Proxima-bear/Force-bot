@@ -7,7 +7,7 @@ function Cart({ cartItems, onCheckout }) {
   return (
     <div className="cart__container">
       {cartItems.length === 0 ? "" : ""}
-      <br /> <span className="cart__span"> ₽{totalPrice.toFixed(2)}</span>
+      <br /> <span className="cart__span">Итоговая цена: ₽{totalPrice.toFixed(2)}</span>
       <Button
         title={`${cartItems.length === 0 ? "Заказать" : "Оплатить"} `}
         type={"checkout"}
